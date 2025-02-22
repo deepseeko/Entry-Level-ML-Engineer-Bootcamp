@@ -12,5 +12,5 @@ try:
 		print("I'm Even.")
 	elif number % 2 != 0:
 		print("I'm Odd.")
-except ValueError:
-	print("{argument is not an integer}")
+except:
+	print("{{argument is not an integer}}")
